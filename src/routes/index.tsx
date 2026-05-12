@@ -175,8 +175,8 @@ function HomePage() {
               <div>
                 <p className="font-mono text-xs text-ink/40 uppercase mb-3">Advantage 03</p>
                 <p className="text-ink/70 leading-relaxed">
-                  Optimized for synthetic and blended filament yarns — polyester, nylon and viscose
-                  blends.
+                  Optimized for synthetic and blended filament yarns — polyester, nylon and
+                  performance blends.
                 </p>
               </div>
               <div>
