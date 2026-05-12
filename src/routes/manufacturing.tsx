@@ -114,6 +114,62 @@ function ManufacturingPage() {
         </div>
       </section>
 
+      {/* Power looms */}
+      <section className="py-20 md:py-24 border-b border-border">
+        <div className="container-page">
+          <div className="grid grid-cols-12 gap-8 lg:gap-12 mb-12">
+            <div className="col-span-12 lg:col-span-5">
+              <span className="text-warp font-mono text-[10px] uppercase tracking-widest mb-4 block">
+                Parallel Capability
+              </span>
+              <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-balance">
+                Power looms — for the rest of the spectrum.
+              </h2>
+            </div>
+            <div className="col-span-12 lg:col-span-7 lg:pt-4">
+              <p className="text-ink/70 text-lg leading-relaxed">
+                Alongside our water jet shed, we operate a fleet of conventional power looms for
+                fabric families where they remain the most cost-effective and structurally
+                appropriate technology — particularly cotton, grey and heavier blended cloth.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border border border-border">
+            {[
+              {
+                n: "01",
+                t: "Grey Cotton Fabric",
+                d: "Unbleached cotton base cloth supplied to processing houses for dyeing, printing and finishing.",
+              },
+              {
+                n: "02",
+                t: "Cotton Shirting",
+                d: "Plain and twill weaves in 100% cotton — soft hand-feel for casual and formal shirting.",
+              },
+              {
+                n: "03",
+                t: "Bottom Weight",
+                d: "Heavier constructions for trousers, uniform bottoms and workwear in cotton and PC blends.",
+              },
+              {
+                n: "04",
+                t: "Furnishing Base",
+                d: "Stable base cloth for home textiles, curtain linings and utility fabrics.",
+              },
+            ].map((c) => (
+              <div key={c.n} className="bg-canvas p-8">
+                <span className="font-mono text-[10px] text-warp mb-8 block uppercase tracking-widest">
+                  Cat {c.n}
+                </span>
+                <h3 className="text-xl font-bold uppercase tracking-tight mb-4">{c.t}</h3>
+                <p className="text-ink/70 leading-relaxed text-sm">{c.d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Facility image */}
       <section className="border-b border-border">
         <div className="aspect-[16/7] w-full overflow-hidden bg-muted">
@@ -146,7 +202,7 @@ function ManufacturingPage() {
           <div className="col-span-12 lg:col-span-7">
             <div className="border border-border divide-y divide-border">
               {[
-                ["Loom Type", "High-speed Water Jet"],
+                ["Loom Type", "Water Jet + Power Loom"],
                 ["Installed Looms", "80+"],
                 ["Monthly Capacity", "450,000 meters"],
                 ["GSM Range", "60 – 320"],
