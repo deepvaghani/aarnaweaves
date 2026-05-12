@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import logo from "@/assets/aarna-logo.jpg";
 
 const links = [
   { to: "/products", label: "Collections" },
@@ -11,9 +12,18 @@ export function SiteNav() {
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-canvas/80 backdrop-blur-md">
       <div className="container-page flex items-center justify-between py-4">
-        <Link to="/" className="flex items-baseline gap-1.5">
-          <span className="font-black text-2xl tracking-tighter uppercase text-ink">Aarna</span>
-          <span className="text-[10px] font-mono uppercase tracking-widest text-ink/40">Weaves</span>
+        <Link to="/" className="flex items-center gap-3">
+          <img
+            src={logo}
+            alt="Aarna Weaves logo"
+            width={40}
+            height={40}
+            className="h-10 w-10 object-contain mix-blend-multiply"
+          />
+          <span className="flex items-baseline gap-1.5">
+            <span className="font-black text-2xl tracking-tighter uppercase text-ink">Aarna</span>
+            <span className="text-[10px] font-mono uppercase tracking-widest text-ink/40">Weaves</span>
+          </span>
         </Link>
         <div className="hidden md:flex gap-8 text-[11px] font-mono uppercase tracking-widest">
           {links.map((l) => (
