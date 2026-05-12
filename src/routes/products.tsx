@@ -31,7 +31,7 @@ const products = [
     img: catSuiting,
     gsm: "180–240",
     width: "147 cm",
-    composition: "PV / PolyViscose Blends",
+    composition: "Polyester Blends",
     description:
       "Medium-weight worsted-look suiting with strong crease recovery and refined drape. Ideal for formal tailoring and uniform programs.",
   },
@@ -51,7 +51,7 @@ const products = [
     img: catDress,
     gsm: "110–160",
     width: "112 cm",
-    composition: "Polyester · Viscose · Blends",
+    composition: "Polyester · Blends",
     description:
       "Versatile woven materials with fluid drape — suitable for ethnic wear, dupattas, contemporary apparel and resort collections.",
   },

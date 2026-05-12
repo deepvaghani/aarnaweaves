@@ -82,8 +82,8 @@ function ManufacturingPage() {
               better tension control and reduced yarn breakage on synthetic and filament yarns.
             </p>
             <p className="text-ink/70 text-lg leading-relaxed">
-              That makes it the ideal technology for the polyester, viscose and blended fabrics
-              that drive modern apparel — exactly the families Aarna Weaves specializes in.
+              That makes it the ideal technology for the polyester and blended fabrics that drive
+              modern apparel — exactly the families Aarna Weaves specializes in.
             </p>
           </div>
         </div>
@@ -151,8 +151,8 @@ function ManufacturingPage() {
                 ["Monthly Capacity", "450,000 meters"],
                 ["GSM Range", "60 – 320"],
                 ["Reed Width", "Up to 190 cm"],
-                ["Attachments", "Dobby & Jacquard"],
-                ["Compatible Yarns", "Polyester · Viscose · Nylon · Blends"],
+                ["Attachments", "Dobby"],
+                ["Compatible Yarns", "Polyester · Nylon · Blends"],
               ].map(([k, v]) => (
                 <div key={k} className="flex justify-between py-4 px-5">
                   <span className="font-mono uppercase text-[10px] tracking-widest text-ink/50">
