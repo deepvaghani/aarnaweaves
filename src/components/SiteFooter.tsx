@@ -21,7 +21,7 @@ export function SiteFooter() {
               <div>
                 <p className="mb-4 text-canvas">Headquarters</p>
                 <p className="leading-relaxed normal-case tracking-normal text-sm font-sans text-canvas/60">
-                  Plot No. 442, Textile Zone<br />Surat, Gujarat 394221<br />India
+                  Plot No. 116-117-118<br />Anjali Textile Park-2<br />Kachhab, Gujarat 394540, India
                 </p>
               </div>
               <div>
