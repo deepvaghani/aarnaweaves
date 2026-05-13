@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/aarna-logo.jpg";
+import logo from "@/assets/aarna-logo.png";
 
 const links = [
   { to: "/products", label: "Collections" },
@@ -18,11 +18,8 @@ export function SiteNav() {
             alt="Aarna Weaves logo"
             width={96}
             height={96}
-            className="h-20 w-20 md:h-24 md:w-24 object-contain mix-blend-multiply"
+            className="h-20 w-20 md:h-24 md:w-24 object-contain"
           />
-          <span className="font-black text-lg md:text-2xl tracking-[0.25em] uppercase text-ink whitespace-nowrap">
-            Aarna Weaves
-          </span>
         </Link>
         <div className="hidden md:flex gap-12 text-sm font-mono uppercase tracking-[0.2em]">
           {links.map((l) => (
