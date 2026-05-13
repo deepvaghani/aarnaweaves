@@ -27,7 +27,7 @@ export function SiteFooter() {
               <div>
                 <p className="mb-4 text-canvas">Contact</p>
                 <p className="leading-relaxed normal-case tracking-normal text-sm font-sans text-canvas/60">
-                  inquiry@aarnaweaves.com<br />+91 98000 00000
+                  aarnaweaves116@gmail.com<br />+91 97277 89463
                 </p>
               </div>
             </div>
