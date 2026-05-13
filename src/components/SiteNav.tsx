@@ -16,17 +16,12 @@ export function SiteNav() {
           <img
             src={logo}
             alt="Aarna Weaves logo"
-            width={64}
-            height={64}
-            className="h-14 w-14 md:h-16 md:w-16 object-contain mix-blend-multiply"
+            width={96}
+            height={96}
+            className="h-20 w-20 md:h-24 md:w-24 object-contain mix-blend-multiply"
           />
-          <span className="flex flex-col leading-none">
-            <span className="font-black text-xl md:text-2xl tracking-[0.2em] uppercase text-ink">
-              Aarna
-            </span>
-            <span className="text-[10px] md:text-xs font-mono uppercase tracking-[0.4em] text-ink/50 mt-1">
-              Weaves
-            </span>
+          <span className="font-black text-lg md:text-2xl tracking-[0.25em] uppercase text-ink whitespace-nowrap">
+            Aarna Weaves
           </span>
         </Link>
         <div className="hidden md:flex gap-8 text-[11px] font-mono uppercase tracking-widest">

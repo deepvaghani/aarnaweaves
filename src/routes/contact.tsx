@@ -51,12 +51,12 @@ function ContactPage() {
                 Sales
               </h3>
               <p className="text-ink leading-relaxed">
-                <a href="mailto:inquiry@aarnaweaves.com" className="hover:text-warp">
-                  inquiry@aarnaweaves.com
+                <a href="mailto:aarnaweaves116@gmail.com" className="hover:text-warp">
+                  aarnaweaves116@gmail.com
                 </a>
                 <br />
-                <a href="tel:+919800000000" className="hover:text-warp">
-                  +91 98000 00000
+                <a href="tel:+919727789463" className="hover:text-warp">
+                  +91 97277 89463
                 </a>
               </p>
             </div>
