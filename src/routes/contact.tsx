@@ -97,10 +97,10 @@ function ContactPage() {
                   { id: "email", label: "Email", type: "email", required: true },
                   { id: "phone", label: "Phone", type: "tel", required: false },
                 ].map((f) => (
-                  <div key={f.id} className="grid grid-cols-3 items-center">
+                  <div key={f.id} className="grid grid-cols-1 sm:grid-cols-3 sm:items-center">
                     <label
                       htmlFor={f.id}
-                      className="font-mono text-[10px] uppercase tracking-widest text-ink/50 px-5"
+                      className="font-mono text-[10px] uppercase tracking-widest text-ink/50 px-5 pt-3 sm:pt-0"
                     >
                       {f.label}
                       {f.required && " *"}
@@ -110,14 +110,14 @@ function ContactPage() {
                       name={f.id}
                       type={f.type}
                       required={f.required}
-                      className="col-span-2 bg-transparent py-4 px-5 outline-none focus:bg-card text-base"
+                      className="sm:col-span-2 bg-transparent py-3 sm:py-4 px-5 outline-none focus:bg-card text-base w-full"
                     />
                   </div>
                 ))}
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3">
                   <label
                     htmlFor="message"
-                    className="font-mono text-[10px] uppercase tracking-widest text-ink/50 px-5 pt-4"
+                    className="font-mono text-[10px] uppercase tracking-widest text-ink/50 px-5 pt-3 sm:pt-4"
                   >
                     Specification *
                   </label>
@@ -127,7 +127,7 @@ function ContactPage() {
                     required
                     rows={6}
                     placeholder="Composition, GSM, width, monthly volume…"
-                    className="col-span-2 bg-transparent py-4 px-5 outline-none focus:bg-card text-base resize-none placeholder:text-ink/30"
+                    className="sm:col-span-2 bg-transparent py-3 sm:py-4 px-5 outline-none focus:bg-card text-base resize-none placeholder:text-ink/30 w-full"
                   />
                 </div>
                 <div className="p-5 flex justify-end">
