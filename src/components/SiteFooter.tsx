@@ -34,7 +34,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="pt-8 flex flex-col md:flex-row gap-4 justify-between items-start md:items-center text-[10px] font-mono uppercase tracking-widest text-canvas/30">
-          <span>© {new Date().getFullYear()} Aarna Weaves Pvt Ltd</span>
+          <span>© {new Date().getFullYear()} Aarna Weaves</span>
           <span>Precision Weaving · Made in India</span>
         </div>
       </div>

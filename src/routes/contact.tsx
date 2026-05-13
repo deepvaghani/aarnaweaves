@@ -40,7 +40,7 @@ function ContactPage() {
                 Headquarters
               </h3>
               <p className="text-ink leading-relaxed">
-                Aarna Weaves Pvt Ltd<br />
+                Aarna Weaves<br />
                 Plot No. 116-117-118, Anjali Textile Park-2<br />
                 Kachhab, Gujarat 394540<br />
                 India
