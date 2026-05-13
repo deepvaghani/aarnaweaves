@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="container-page py-20">
         <div className="grid grid-cols-12 gap-12 border-b border-canvas/10 pb-16">
           <div className="col-span-12 lg:col-span-6">
-            <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-balance">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tighter mb-6 md:mb-8 text-balance">
               Let&rsquo;s discuss <br />your weave.
             </h2>
             <Link

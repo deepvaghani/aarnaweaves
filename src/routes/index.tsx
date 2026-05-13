@@ -38,29 +38,29 @@ function HomePage() {
     <PageShell>
       {/* Hero */}
       <section className="relative loom-grid overflow-hidden border-b border-border">
-        <div className="container-page pt-16 md:pt-24 pb-24 md:pb-32 grid grid-cols-12 gap-6 items-end">
+        <div className="container-page pt-12 md:pt-24 pb-20 md:pb-32 grid grid-cols-12 gap-8 md:gap-6 items-end">
           <div className="col-span-12 lg:col-span-7 animate-reveal">
-            <p className="font-mono text-[10px] uppercase tracking-[0.3em] mb-6 text-warp">
+            <p className="font-mono text-[10px] uppercase tracking-[0.3em] mb-4 md:mb-6 text-warp">
               Warp & Weft Engineering
             </p>
-            <h1 className="text-6xl sm:text-7xl lg:text-9xl font-bold tracking-tighter text-balance leading-[0.85] mb-8">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold tracking-tighter text-balance leading-[0.9] md:leading-[0.85] mb-6 md:mb-8">
               Industrial <br />Scale.{" "}
               <span className="text-ink/25 italic font-light">Hand Feel.</span>
             </h1>
-            <p className="text-lg leading-relaxed text-ink/70 text-pretty max-w-md">
+            <p className="text-base md:text-lg leading-relaxed text-ink/70 text-pretty max-w-md">
               Premium textile manufacturing on high-speed water jet looms — engineered for the
               modern Indian garment landscape and global export markets.
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-8 md:mt-10 flex flex-wrap gap-3 md:gap-4">
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 bg-ink text-canvas font-mono text-[11px] uppercase tracking-widest px-6 py-3 hover:bg-warp transition-colors"
+                className="inline-flex items-center gap-2 bg-ink text-canvas font-mono text-[11px] uppercase tracking-widest px-5 md:px-6 py-3 hover:bg-warp transition-colors"
               >
                 View Collections →
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 border border-ink/20 font-mono text-[11px] uppercase tracking-widest px-6 py-3 hover:border-warp hover:text-warp transition-colors"
+                className="inline-flex items-center gap-2 border border-ink/20 font-mono text-[11px] uppercase tracking-widest px-5 md:px-6 py-3 hover:border-warp hover:text-warp transition-colors"
               >
                 Request Swatch
               </Link>
@@ -76,9 +76,9 @@ function HomePage() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -left-4 md:-left-12 bottom-8 bg-canvas p-5 md:p-6 border border-border shadow-sm">
-              <div className="font-mono text-[10px] text-ink/40 mb-2 uppercase">Monthly Output</div>
-              <div className="text-3xl md:text-4xl font-bold tracking-tighter">
+            <div className="absolute left-2 md:-left-12 bottom-4 md:bottom-8 bg-canvas p-4 md:p-6 border border-border shadow-sm">
+              <div className="font-mono text-[10px] text-ink/40 mb-1 md:mb-2 uppercase">Monthly Output</div>
+              <div className="text-2xl md:text-4xl font-bold tracking-tighter">
                 450k <span className="text-sm font-normal text-ink/60">m</span>
               </div>
             </div>
