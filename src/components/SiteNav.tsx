@@ -24,12 +24,12 @@ export function SiteNav() {
             Aarna Weaves
           </span>
         </Link>
-        <div className="hidden md:flex gap-8 text-[11px] font-mono uppercase tracking-widest">
+        <div className="hidden md:flex gap-12 text-sm font-mono uppercase tracking-[0.2em]">
           {links.map((l) => (
             <Link
               key={l.to}
               to={l.to}
-              className="text-ink/70 hover:text-warp transition-colors"
+              className="text-ink/70 hover:text-warp transition-colors py-2"
               activeProps={{ className: "text-warp underline underline-offset-4 decoration-warp/40" }}
             >
               {l.label}
